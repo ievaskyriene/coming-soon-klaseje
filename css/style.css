@@ -1,0 +1,106 @@
+.container{
+    display: inline-block;
+    width: 100%;
+    padding: 80px;
+}
+
+    .container.hero{
+        background-color: #3366ff;
+        background-image: url(../img/coming-soon-istr.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: cover;
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    .container.content{
+        background-color: #ffffff;
+        padding-top: 80px;
+        padding-bottom: 20px;
+
+    }
+
+    .container.footer {
+        background-color: #3366ff;
+        padding-top: 10px;
+        padding-bottom: 80px;
+}
+
+    .container > .hero-row{
+        display: inline-block;
+        width: 600px;
+        margin-left: calc(50% - 300px);
+        background-color: aqua;
+    }
+
+    .container > .row {
+        display: inline-block;
+        width: 1000px;
+        margin-left: calc(50% - 500px);
+        background-color: blueviolet;
+    }
+
+    .container > .row > .left{
+        display: inline-block;
+        width: 50%;
+        
+        float: left;
+
+    }
+
+    .container > .row > .right{
+        display: inline-block;
+        width: 40%;
+        
+        float: right;
+        
+    }
+
+    .footer > .row {
+        background-color: white;
+    }
+
+    @media (max-width: 1000px){
+        .container > .row {
+            width: 800px;
+            margin-left: calc(50% - 400px);
+            background-color: blueviolet;
+        }
+    }
+
+    @media (max-width: 900px){
+        .container > .row {
+            width: 600px;
+            margin-left: calc(50% - 300px);
+            background-color: blueviolet;
+        }
+    }
+
+    @media (max-width: 700px){
+
+        .container > .row,
+        .container > .hero-row{
+            width: 600px;
+            padding-right: 20px;
+            padding-left: 0px;
+        }
+
+        .container > .row > .left{
+            float: left;
+            width: 100%;
+            margin-bottom: 80px;
+        }
+
+
+        .container > .row > .right{
+            float: right;
+            width: 100%;
+        }
+
+       
+
+    }
+
+    
+
