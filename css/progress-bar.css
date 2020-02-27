@@ -47,8 +47,6 @@
         animation-name: loading;
         animation-duration: 2s;
         animation-iteration-count: 1;
-        animation-delay: 4s;
-        animation-direction: alternate;
         animation-play-state: running;
         animation-fill-mode: forwards;
     }
@@ -66,4 +64,3 @@
             width: 100%;
         }
     }
-
