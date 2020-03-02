@@ -56,6 +56,20 @@
         background-color: white;
     }
 
+    .hero-row .form > input {
+        width: 100%;
+        background-color: transparent;
+        color: white;
+        border-bottom-color: white;
+    }
+
+
+    .hero-row .form > input::placeholder {
+        color: white;
+        
+    }
+    
+
     @media (max-width: 1000px){
         .container > .row {
             width: 800px;
@@ -160,5 +174,9 @@
 .content .row{
 
     background-color: #ffffff;
+}
+
+.form > input {
+    width: 100%;
 }
 
